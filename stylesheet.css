@@ -1,0 +1,308 @@
+        html{
+          
+           background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+           height: 150%;
+                     
+      }
+      
+      
+      
+       #roundedBackground{
+          
+            background-color: white;  
+            width: 1050px;
+            height: 600px;
+            position: absolute;
+            top: -70px;
+            z-index: -1;
+            border-radius: 30px;
+            overflow-x: hidden;
+            
+          
+      }
+      
+      #woman{
+          
+           position: relative;
+           right: 100px;
+           width: 580px;
+           top: 80px;
+          
+          
+      }
+      
+      #lines{
+          
+          position: relative;
+          top: -780px;
+          left: -700px;
+          width: 1180px;
+          z-index: -2;
+          
+          
+      }
+      
+      
+      #accordion{
+          
+          width:30%;
+          float: right;
+          position:relative;
+          top: 300px;
+          right: 900px;
+          align-content: center;
+          font-family: 'Kumbh Sans', sans-serif;
+          
+          
+      }
+      
+     
+      
+      .card{
+          position: relative;
+          top: 6px;
+          left:550px;
+          border-top: 0px;
+          border-left: 0px;
+          border-right:0px;
+          font-size: 12px;
+          color: hsl(240, 6%, 50%);
+          width: 410px;
+          
+          
+            
+          
+      }
+      
+      .btn{
+          
+          background-color: white;
+          color:hsl(237, 12%, 33%);
+          
+      }
+      
+      .card-header{
+          
+          background-color: white;
+        
+          
+      }
+      
+      .card-header h5 {
+          
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+}
+      
+      h3{
+          
+          font-weight: 700;
+          color:hsl(237, 12%, 33%);
+          
+      }
+      
+      
+      button{
+          position:relative;
+          left:-32px;
+      
+      }
+      
+      .arrow{
+          width:10px;
+          height: 10px;
+          float:right;
+          position: relative;
+          top: 15px;
+          
+}
+      
+      .arrow:not(.collapsed) {
+    transform: rotateX(180deg);
+}
+      
+      button:not(.collapsed) {
+            
+        font-weight: 700;
+          
+}
+      
+      #box img{
+          
+          position: absolute;
+          left: -125px;
+          top: 169px;
+          width: 250px;
+      }
+      
+     
+      
+    .attribution { 
+        
+           font-size: 11px; 
+           text-align: center; 
+           position: relative;
+           top: 900px;
+           left: 250px;
+      }
+      
+    .attribution a { color: hsl(228, 45%, 44%); }
+      
+      
+      
+      @media screen and (max-width: 674px){
+          
+          html{
+          
+          background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+          height: 100%;
+         
+          
+      }
+      
+      
+      
+       #roundedBackground{
+          
+            background-color: white;  
+            width: 450px;
+            height: 600px;
+            position: absolute;
+            top: -70px;
+            z-index: -1;
+            border-radius: 30px;
+            overflow:visible;
+            
+           
+          
+      }
+      
+      #woman{
+          
+          position: relative;
+          right: -100px;
+          width: 250px;
+          top: -115px;
+          
+      }
+      
+      #lines{
+          
+          position: relative;
+          top: -330px;
+          left: 95px;
+          width: 250px;
+          z-index: -2;
+          
+          
+          
+      }
+      
+      
+      #accordion{
+          
+          width:3%;
+          float: right;
+          position:relative;
+          top: 200px;
+          right: 450px;
+          align-content: center;
+          font-family: 'Kumbh Sans', sans-serif;
+          
+      }
+      
+     
+      
+      .card{
+          position: relative;
+          top: 40px;
+          left:50px;
+          border-top: 0px;
+          border-left: 0px;
+          border-right:0px;
+          font-size: 12px;
+          color: hsl(240, 6%, 50%);
+          width: 370px;
+          
+          
+            
+          
+      }
+      
+      .btn{
+          
+          background-color: white;
+          color:hsl(237, 12%, 33%);
+          
+      }
+      
+      .card-header{
+          
+          background-color: white;
+        
+          
+      }
+      
+      .card-header h5 {
+          
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+}
+      
+      h3{
+          
+          font-weight: 700;
+          color:hsl(237, 12%, 33%);
+           display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          
+      }
+      
+      
+      button{
+          position:relative;
+          left:-32px;
+      
+      }
+      
+      .arrow{
+          width:10px;
+          height: 10px;
+          float:right;
+          position: relative;
+          top: 15px;
+          
+}
+      
+      .arrow:not(.collapsed) {
+            transform: rotateX(180deg);
+            font-weight: 700;
+          
+}
+      
+      button:not(.collapsed) {
+            
+            font-weight: 700;
+          
+}
+      
+      
+      #box img{
+          
+          position: absolute;
+          left:90px;
+          top: -109px;
+          width: 90px;
+      }
+          
+       
+          
+      }
+      
+ 
